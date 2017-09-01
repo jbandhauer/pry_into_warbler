@@ -1,0 +1,45 @@
+GIT
+  remote: git@github.com:looker/warbler.git
+  revision: 5358ff7cb113c9761d90fb70e0e7d814bc60b973
+  branch: looker-custom-2.0.4
+  specs:
+    warbler (2.0.4)
+      jruby-jars (>= 9.0.0.0)
+      jruby-rack (>= 1.1.1, < 1.3)
+      rake (>= 10.1.0)
+      rubyzip (~> 1.0, < 1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    ffi (1.9.18-java)
+    jruby-jars (9.1.8.0)
+    jruby-openssl (0.9.19-java)
+    jruby-rack (1.1.20)
+    method_source (0.8.2)
+    pry (0.10.1-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    rake (12.0.0)
+    rubyzip (1.2.0)
+    slop (3.6.0)
+    spoon (0.0.6)
+      ffi
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  jruby-jars (= 9.1.8.0)
+  jruby-openssl (= 0.9.19)
+  pry (= 0.10.1)
+  warbler!
+
+RUBY VERSION
+   ruby 2.3.1p0 (jruby 9.1.8.0)
+
+BUNDLED WITH
+   1.15.1

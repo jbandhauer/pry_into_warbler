@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'pry_into_warbler'
+

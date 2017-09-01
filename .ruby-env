@@ -1,0 +1,1 @@
+JRUBY_OPTS="-J-XX:+UseG1GC -J-XX:MaxGCPauseMillis=1000 -J-XX:MaxMetaspaceSize=512m -J-XX:+HeapDumpOnOutOfMemoryError -J-XX:HeapDumpPath=/tmp/ -J-Xms512m -J-Xmx2048m -J-Dapple.awt.UIElement=true -J-Djava.awt.headless=true -Xcli.encoding.external=UTF-8"
