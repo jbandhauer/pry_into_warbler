@@ -32,4 +32,8 @@ When run outside the jar one might do:
 => true
 ```
 
-Note that the 'pry' startup when run in the jar complains a bit. I think that is just due to it not being about to find the file source because the config options I'm using compile the ruby code to classfiles. Or, maybe not.
+# NOTES
+
+I know nearly nothing about warbler. We use it for our product. But, other people set that up. I just did this hack to try to emulate that setup we use. It may or may not be a reasonable way to do this.
+
+The 'pry' startup when run in the jar complains a bit. I think that is just due to it not being about to find the file source because the config options I'm using compile the ruby code to classfiles. Or, maybe not.
